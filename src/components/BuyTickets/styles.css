@@ -1,0 +1,278 @@
+.BuyTickets {
+  margin: 100px;
+}
+
+.movieNameAndCertificateDiv {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 30px 20px 15px;
+  box-sizing: border-box;
+  background-color: #333545;
+}
+.movieNameAndCertificate {
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  background: #333545;
+  color: #999;
+  z-index: 3;
+}
+.movieName {
+  font-size: 36px;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 2px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.certificateDetails {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: 400;
+  vertical-align: baseline;
+  background: 0 0;
+  display: flex;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: 999;
+  font-size: 32px;
+  border: 1.3px solid #999;
+}
+
+.tags {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  background: 0 0;
+  padding: 2px 8px;
+  border-radius: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 5px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.DateAndOtherDiv {
+  width: 90%;
+}
+
+.dateContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.dateItem {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 42px;
+  color: black;
+  background-color: #f84464;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.theaterAndShowTimeDiv {
+  min-height: 650px;
+  padding: 1px 0 30px;
+  background: #f2f2f2;
+}
+.attributesContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 16px;
+  cursor: default;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: white;
+  margin-top: 18px;
+}
+
+.legendContainer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: 400;
+  vertical-align: baseline;
+  background: 0 0;
+  display: flex;
+}
+.showTimeLegend {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.legendIconGreen {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #4abd5d;
+  margin-right: 8px;
+}
+.legendText {
+  color: #717171;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.legendIconRed {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #f60;
+  margin-right: 8px;
+}
+
+.subTitle {
+  position: relative;
+  border: 0.8px solid #4abd5d;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  height: 12px;
+  justify-content: center;
+  display: flex;
+  padding: 1px 1px 0;
+  align-items: center;
+  width: 22px;
+  color: #4abd5d;
+  margin-right: 8px;
+}
+
+.list {
+  zoom: 1;
+  border-bottom: 1px solid #eff1f3;
+  padding: 13px 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.listInfo {
+  float: left;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.showTimeDetails {
+  float: left;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+}
+.listVenueInfo {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  width: 220px;
+  font-weight: 700;
+  color: #333;
+  float: left;
+}
+
+.listName {
+  float: left;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  width: 28%;
+  min-width: 250px;
+  font-size: 10px;
+  color: #999;
+}
+.showTimePillWraper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.showTimePill {
+  border: 1px solid #999;
+  color: #4abd5d;
+  padding: 4px;
+  border-radius: 4px;
+  width: 110px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+}
+
+.title {
+  background: 0 0;
+  color: #000;
+  font-size: 16px;
+  text-transform: none;
+  letter-spacing: 0;
+  position: relative;
+  text-align: center;
+}
+.contant {
+  text-align: left;
+  color: #888c90;
+  font-size: 12px;
+  line-height: 20px;
+  max-height: calc(100vh - 240px);
+  overflow: auto;
+}
+.dialogAction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  padding: 16px 16px;
+  font-size: 100%;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+
+.dialogActionButtonCancel {
+  background: #fff;
+  color: #f84464;
+  border: 1px solid #f84464;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  height: 100%;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  cursor: pointer;
+  min-height: 40px;
+  max-width: 400px;
+}
+.dialogActionButtonAccept {
+  background: #f84464;
+  color: #fff;
+  border: 1px solid #f84464;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  height: 100%;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  cursor: pointer;
+  min-height: 40px;
+  max-width: 400px;
+}
